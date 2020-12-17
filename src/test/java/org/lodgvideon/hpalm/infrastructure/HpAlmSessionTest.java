@@ -49,7 +49,7 @@ public class HpAlmSessionTest {
 //        HpAlmSession session = HpAlmSession.create(url, "DEFAULT", "Production", "COGIGY", "Gkk@123456789");
 
         assertEquals(tz, session.determineServerTimeZone());
-        Thread.sleep(50000);
+        Thread.sleep(60000);
         
         server.stopServer();
     }
